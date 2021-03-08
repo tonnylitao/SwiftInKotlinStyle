@@ -1,10 +1,10 @@
 import Foundation
 
-protocol Appliable {}
+public protocol Appliable {}
 
 extension NSObject: Appliable {}
 
-extension Appliable {
+public extension Appliable {
     typealias Decorator1 = (inout Self) -> Void
 
     @discardableResult
@@ -18,7 +18,7 @@ extension Appliable {
     }
 }
 
-extension Appliable where Self: NSObject {
+public extension Appliable where Self: NSObject {
     typealias Decorator = (Self) -> Void
 
     @discardableResult

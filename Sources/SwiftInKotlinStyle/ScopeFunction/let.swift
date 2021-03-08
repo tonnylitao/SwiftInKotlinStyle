@@ -1,6 +1,6 @@
 import Foundation
 
-extension Optional {
+public extension Optional {
     typealias Transform<U> = (Wrapped) throws -> U
 
     @discardableResult
