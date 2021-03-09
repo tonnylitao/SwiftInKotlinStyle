@@ -123,5 +123,8 @@ final class ScopeFunctionTests: XCTestCase {
         ("test_also_struct", test_also_struct),
         
         ("test_let", test_let),
+        ("test_takeIf", test_takeIf),
+        ("test_takeUnless", test_takeUnless),
+        ("test_repeat", test_repeat)
     ]
 }
