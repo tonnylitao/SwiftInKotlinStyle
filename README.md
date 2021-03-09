@@ -6,10 +6,10 @@ This Swift package can help you to write swift in kotlin style.
 
 ### Scope Functions
 
-* apply
+* also
 
     ```swift
-    view = UIView().apply {
+    view = UIView().also {
         $0.frame = CGRect(x: 10, y: 10, widht: 100, height: 100)
         $0.backgroundColor = .red
         $0.layer.borderWidth = 1
@@ -21,6 +21,8 @@ This Swift package can help you to write swift in kotlin style.
 * let
 
     ```swift
+    var url: Url? = nil
+    ..
     url.let {
         let file = open($0)
         let data = read(file)
