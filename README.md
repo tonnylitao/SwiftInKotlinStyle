@@ -39,7 +39,7 @@ This Swift package can help you to write some swift code in kotlin style.
 
     ```swift
     let number = 1
-    let even = number.takeIf { $0 % 2 == 0 }
+    let optionalEven = number.takeIf { $0 % 2 == 0 }
     ```
 
 
