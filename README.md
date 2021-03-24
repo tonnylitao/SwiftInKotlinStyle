@@ -34,4 +34,12 @@ This Swift package can help you to write swift in kotlin style.
         //e.g. return .success("I read it")
     }
     ```
+    
+* takeIf
+
+    ```swift
+        let number = 1
+        let even = number.takeIf { $0 % 2 == 0 }
+    ```
+
 
