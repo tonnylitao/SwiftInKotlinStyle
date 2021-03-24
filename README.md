@@ -24,7 +24,7 @@ This Swift package can help you to write swift in kotlin style.
     var url: Url? = nil
     ..
     url.let {
-        let file = open($0)
+        let file = openFile($0)
         let data = read(file)
         ...
         
