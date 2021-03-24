@@ -38,8 +38,8 @@ This Swift package can help you to write swift in kotlin style.
 * takeIf
 
     ```swift
-        let number = 1
-        let even = number.takeIf { $0 % 2 == 0 }
+    let number = 1
+    let even = number.takeIf { $0 % 2 == 0 }
     ```
 
 
