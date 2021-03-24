@@ -2,7 +2,7 @@
 
 [http://github.com/tonnylitao/SwiftInKotlinStyle](http://github.com/tonnylitao/SwiftInKotlinStyle)
 
-This Swift package can help you to write swift in kotlin style.
+This Swift package can help you to write some swift code in kotlin style.
 
 ### Scope Functions
 
