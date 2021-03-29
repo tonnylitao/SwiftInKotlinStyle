@@ -2,7 +2,7 @@
 
 [http://github.com/tonnylitao/SwiftInKotlinStyle](http://github.com/tonnylitao/SwiftInKotlinStyle)
 
-This Swift package can help you to write swift in kotlin style.
+This Swift package can help you to write some swift code in kotlin style.
 
 ### Scope Functions
 
@@ -24,7 +24,7 @@ This Swift package can help you to write swift in kotlin style.
     var url: Url? = nil
     ..
     url.let {
-        let file = open($0)
+        let file = openFile($0)
         let data = read(file)
         ...
         
@@ -34,4 +34,12 @@ This Swift package can help you to write swift in kotlin style.
         //e.g. return .success("I read it")
     }
     ```
+    
+* takeIf
+
+    ```swift
+    let number = 1
+    let optionalEven = number.takeIf { $0 % 2 == 0 }
+    ```
+
 
